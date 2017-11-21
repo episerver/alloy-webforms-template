@@ -1,0 +1,34 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2006
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alloy.WebForms.Template", "src\Alloy.WebForms.Template\Alloy.WebForms.Template.csproj", "{A0A573D2-9552-4C0B-9B98-8895CF417511}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FA016351-50E5-4C78-833E-0A58B816B812}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{A710A071-BC35-4A44-A7D9-961C87B600B9}"
+	ProjectSection(SolutionItems) = preProject
+		build\Templates.targets = build\Templates.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0A573D2-9552-4C0B-9B98-8895CF417511}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0A573D2-9552-4C0B-9B98-8895CF417511}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0A573D2-9552-4C0B-9B98-8895CF417511}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0A573D2-9552-4C0B-9B98-8895CF417511}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A0A573D2-9552-4C0B-9B98-8895CF417511} = {FA016351-50E5-4C78-833E-0A58B816B812}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4AED7B21-F179-48B4-82D2-2CA8606E7D28}
+	EndGlobalSection
+EndGlobal
