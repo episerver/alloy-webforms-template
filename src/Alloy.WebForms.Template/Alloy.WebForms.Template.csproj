@@ -717,7 +717,7 @@
   </Target>
   <Import Project="$(SolutionDir)\build\Templates.targets" />
   <ItemGroup>
-    <NugetPackage Include="EPiServer.Templates.Alloy.Sources.nuspec" />
-    <NugetPackage Include="EPiServer.Templates.Alloy.Search.Webforms.Sources.nuspec" />
+    <NugetPackage Include="Alloy.WebForms.Template.Search.Sources.nuspec" />
+    <NugetPackage Include="Alloy.WebForms.Template.Sources.nuspec" />
   </ItemGroup>
 </Project>
