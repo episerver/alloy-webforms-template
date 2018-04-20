@@ -233,7 +233,9 @@
     <Compile Include="Business\Channels\WebChannel.cs" />
     <Compile Include="Business\Core\CategorizableExtensions.cs" />
     <Compile Include="Business\Core\ContentReferenceExtensions.cs" />
+    <Compile Include="Business\Initialization\DependencyResolverInitialization.cs" />
     <Compile Include="Business\Initialization\ExtendedTinyMceInitialization.cs" />
+    <Compile Include="Business\Initialization\ServiceLocatorDependencyResolver.cs" />
     <Compile Include="Models\Pages\ISearchPage.cs" />
     <Compile Include="Business\Core\PageDataCollectionExtensions.cs" />
     <Compile Include="Business\Core\PageTypeExtensions.cs" />
